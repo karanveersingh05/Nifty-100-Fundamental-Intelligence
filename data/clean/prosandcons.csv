@@ -1,0 +1,541 @@
+company_id,is_pro,text,category,source,confidence
+ABB,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+ABB,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+ABB,True,"Exceptional net profit margin of 21.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+ABB,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ABB,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ABB,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENSOL,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENSOL,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENSOL,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENSOL,False,"Elevated debt burden with Debt-to-Equity of 1.86, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENSOL,False,"Thin net profit margin of 2.7%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENSOL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENT,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENT,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENT,False,"Elevated debt burden with Debt-to-Equity of 1.67, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENT,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIENT,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIGREEN,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIGREEN,True,"Exceptional net profit margin of 17.9%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIGREEN,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIGREEN,False,"Elevated debt burden with Debt-to-Equity of 6.60, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIGREEN,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIGREEN,False,Modest interest coverage ratio (1.6x) reduces flexibility in rising interest rate regimes.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPORTS,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPORTS,True,Manageable debt obligations with Debt-to-Equity maintained at 0.94.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPORTS,True,"Exceptional net profit margin of 34.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPORTS,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPORTS,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPORTS,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPOWER,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPOWER,True,Manageable debt obligations with Debt-to-Equity maintained at 0.80.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPOWER,True,"Exceptional net profit margin of 23.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPOWER,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPOWER,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ADANIPOWER,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+AMBUJACEM,True,Strategic limestone reserves and regional supply dominance benefiting from booming infrastructure and housing.,Fundamental,ANALYTICS_ENGINE,0.95
+AMBUJACEM,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+AMBUJACEM,True,"Healthy net profit margin of 11.8%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+AMBUJACEM,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+AMBUJACEM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+AMBUJACEM,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+APOLLOHOSP,True,Diversified multi-geography regulatory-approved generic formulations pipeline and robust R&D investments.,Fundamental,ANALYTICS_ENGINE,0.95
+APOLLOHOSP,True,Manageable debt obligations with Debt-to-Equity maintained at 0.77.,Fundamental,ANALYTICS_ENGINE,0.95
+APOLLOHOSP,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+APOLLOHOSP,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+APOLLOHOSP,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+APOLLOHOSP,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+ASIANPAINT,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+ASIANPAINT,True,Conservative capital structure with low Debt-to-Equity ratio of 0.14.,Fundamental,ANALYTICS_ENGINE,0.95
+ASIANPAINT,True,"Healthy net profit margin of 13.3%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+ASIANPAINT,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ASIANPAINT,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ASIANPAINT,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+ATGL,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+ATGL,True,Conservative capital structure with low Debt-to-Equity ratio of 0.43.,Fundamental,ANALYTICS_ENGINE,0.95
+ATGL,True,"Healthy net profit margin of 13.8%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+ATGL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ATGL,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+AXISBANK,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+AXISBANK,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+AXISBANK,True,"Exceptional net profit margin of 21.9%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+AXISBANK,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+AXISBANK,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+AXISBANK,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJ-AUTO,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJ-AUTO,True,Conservative capital structure with low Debt-to-Equity ratio of 0.07.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJ-AUTO,True,"Exceptional net profit margin of 15.1%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJ-AUTO,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJ-AUTO,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJ-AUTO,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJFINSV,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJFINSV,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJFINSV,True,"Healthy net profit margin of 13.1%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJFINSV,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJFINSV,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJFINSV,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJHLDNG,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJHLDNG,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJHLDNG,True,"Exceptional net profit margin of 432.0%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJHLDNG,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJHLDNG,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJAJHLDNG,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJFINANCE,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJFINANCE,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJFINANCE,True,"Exceptional net profit margin of 24.7%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+BAJFINANCE,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJFINANCE,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BAJFINANCE,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+BANKBARODA,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+BANKBARODA,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+BANKBARODA,True,"Exceptional net profit margin of 16.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+BANKBARODA,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+BANKBARODA,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BANKBARODA,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+BEL,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+BEL,True,Manageable debt obligations with Debt-to-Equity maintained at 0.51.,Fundamental,ANALYTICS_ENGINE,0.95
+BEL,True,"Exceptional net profit margin of 21.0%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+BEL,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+BEL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BEL,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+BHARTIARTL,True,Oligopolistic telecom market structure with surging Average Revenue Per User (ARPU) and 5G penetration.,Fundamental,ANALYTICS_ENGINE,0.95
+BHARTIARTL,True,"Healthy net profit margin of 8.9%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+BHARTIARTL,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+BHARTIARTL,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+BHARTIARTL,False,"Elevated debt burden with Debt-to-Equity of 2.61, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+BHARTIARTL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BHEL,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+BHEL,True,Conservative capital structure with low Debt-to-Equity ratio of 0.36.,Fundamental,ANALYTICS_ENGINE,0.95
+BHEL,False,"Thin net profit margin of 1.7%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+BHEL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BHEL,False,Modest interest coverage ratio (1.4x) reduces flexibility in rising interest rate regimes.,Fundamental,ANALYTICS_ENGINE,0.95
+BOSCHLTD,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+BOSCHLTD,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+BOSCHLTD,True,"Healthy net profit margin of 12.2%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+BOSCHLTD,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+BOSCHLTD,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BOSCHLTD,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+BPCL,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+BPCL,True,Manageable debt obligations with Debt-to-Equity maintained at 0.72.,Fundamental,ANALYTICS_ENGINE,0.95
+BPCL,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+BPCL,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+BPCL,False,"Thin net profit margin of 3.1%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+BPCL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BRITANNIA,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+BRITANNIA,True,Manageable debt obligations with Debt-to-Equity maintained at 0.52.,Fundamental,ANALYTICS_ENGINE,0.95
+BRITANNIA,True,"Healthy net profit margin of 12.3%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+BRITANNIA,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+BRITANNIA,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+BRITANNIA,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+CANBK,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+CANBK,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+CANBK,True,"Healthy net profit margin of 13.9%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+CANBK,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+CANBK,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+CANBK,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+CHOLAFIN,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+CHOLAFIN,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+CHOLAFIN,True,"Exceptional net profit margin of 17.1%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+CHOLAFIN,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+CHOLAFIN,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+CHOLAFIN,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+CIPLA,True,Diversified multi-geography regulatory-approved generic formulations pipeline and robust R&D investments.,Fundamental,ANALYTICS_ENGINE,0.95
+CIPLA,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+CIPLA,True,"Exceptional net profit margin of 18.5%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+CIPLA,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+CIPLA,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+CIPLA,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+COALINDIA,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+COALINDIA,True,Conservative capital structure with low Debt-to-Equity ratio of 0.08.,Fundamental,ANALYTICS_ENGINE,0.95
+COALINDIA,True,"Exceptional net profit margin of 24.5%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+COALINDIA,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+COALINDIA,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+COALINDIA,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+DABUR,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+DABUR,True,Conservative capital structure with low Debt-to-Equity ratio of 0.14.,Fundamental,ANALYTICS_ENGINE,0.95
+DABUR,True,"Healthy net profit margin of 14.1%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+DABUR,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+DABUR,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+DABUR,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+DIVISLAB,True,Diversified multi-geography regulatory-approved generic formulations pipeline and robust R&D investments.,Fundamental,ANALYTICS_ENGINE,0.95
+DIVISLAB,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+DIVISLAB,True,"Exceptional net profit margin of 21.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+DIVISLAB,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+DIVISLAB,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+DIVISLAB,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+DLF,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+DLF,True,Conservative capital structure with low Debt-to-Equity ratio of 0.12.,Fundamental,ANALYTICS_ENGINE,0.95
+DLF,True,"Exceptional net profit margin of 57.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+DLF,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+DLF,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+DLF,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+DMART,True,High-density retail store network with superior inventory turnover and exceptional supply-chain scale.,Fundamental,ANALYTICS_ENGINE,0.95
+DMART,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+DMART,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+DMART,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+DMART,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+DMART,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+DRREDDY,True,Diversified multi-geography regulatory-approved generic formulations pipeline and robust R&D investments.,Fundamental,ANALYTICS_ENGINE,0.95
+DRREDDY,True,Conservative capital structure with low Debt-to-Equity ratio of 0.07.,Fundamental,ANALYTICS_ENGINE,0.95
+DRREDDY,True,"Exceptional net profit margin of 17.4%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+DRREDDY,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+DRREDDY,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+DRREDDY,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+EICHERMOT,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+EICHERMOT,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+EICHERMOT,True,"Exceptional net profit margin of 25.0%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+EICHERMOT,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+EICHERMOT,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+EICHERMOT,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+GAIL,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+GAIL,True,Conservative capital structure with low Debt-to-Equity ratio of 0.28.,Fundamental,ANALYTICS_ENGINE,0.95
+GAIL,True,"Healthy net profit margin of 8.5%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+GAIL,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+GAIL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+GAIL,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+GODREJCP,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+GODREJCP,True,Conservative capital structure with low Debt-to-Equity ratio of 0.26.,Fundamental,ANALYTICS_ENGINE,0.95
+GODREJCP,False,"Thin net profit margin of -3.2%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+GODREJCP,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+GODREJCP,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+GRASIM,True,Strategic limestone reserves and regional supply dominance benefiting from booming infrastructure and housing.,Fundamental,ANALYTICS_ENGINE,0.95
+GRASIM,False,"Elevated debt burden with Debt-to-Equity of 1.55, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+GRASIM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+GRASIM,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+HAL,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+HAL,True,Manageable debt obligations with Debt-to-Equity maintained at 0.60.,Fundamental,ANALYTICS_ENGINE,0.95
+HAL,True,"Exceptional net profit margin of 27.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+HAL,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HAL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HAL,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+HAVELLS,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+HAVELLS,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+HAVELLS,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HAVELLS,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+HAVELLS,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HAVELLS,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+HCLTECH,True,Global Tier-1 technology partner with deep enterprise multi-year digital transformation contracts.,Fundamental,ANALYTICS_ENGINE,0.95
+HCLTECH,True,Conservative capital structure with low Debt-to-Equity ratio of 0.08.,Fundamental,ANALYTICS_ENGINE,0.95
+HCLTECH,True,"Healthy net profit margin of 14.8%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+HCLTECH,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HCLTECH,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HCLTECH,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,True,"Exceptional net profit margin of 21.9%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCBANK,False,"Subdued 3-year Return on Equity of 3.0%, trailing top industry benchmarks.",Fundamental,ANALYTICS_ENGINE,0.95
+HDFCLIFE,True,Expanding bancassurance partnerships and steady compounding of long-term embedded value (VNB).,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCLIFE,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCLIFE,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCLIFE,False,Mortality and morbidity claim volatility along with regulatory limits on surrender charges.,Fundamental,ANALYTICS_ENGINE,0.95
+HDFCLIFE,False,"Thin net profit margin of 1.7%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+HDFCLIFE,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HEROMOTOCO,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+HEROMOTOCO,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+HEROMOTOCO,True,"Healthy net profit margin of 10.3%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+HEROMOTOCO,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HEROMOTOCO,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HEROMOTOCO,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDALCO,True,Large-scale vertically integrated manufacturing assets benefiting from national infrastructure capex.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDALCO,True,Manageable debt obligations with Debt-to-Equity maintained at 0.53.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDALCO,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDALCO,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDALCO,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDALCO,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDUNILVR,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDUNILVR,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDUNILVR,True,"Exceptional net profit margin of 17.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+HINDUNILVR,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDUNILVR,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+HINDUNILVR,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIBANK,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIBANK,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIBANK,True,"Exceptional net profit margin of 29.0%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+ICICIBANK,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIBANK,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIBANK,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIGI,True,Expanding bancassurance partnerships and steady compounding of long-term embedded value (VNB).,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIGI,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIGI,True,"Healthy net profit margin of 10.8%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+ICICIGI,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIGI,False,Mortality and morbidity claim volatility along with regulatory limits on surrender charges.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIGI,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIPRULI,True,Expanding bancassurance partnerships and steady compounding of long-term embedded value (VNB).,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIPRULI,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIPRULI,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIPRULI,False,Mortality and morbidity claim volatility along with regulatory limits on surrender charges.,Fundamental,ANALYTICS_ENGINE,0.95
+ICICIPRULI,False,"Thin net profit margin of 1.3%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+ICICIPRULI,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+INDIGO,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+INDIGO,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+INDIGO,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+INDIGO,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+INDIGO,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+INDIGO,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+INDUSINDBK,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+INDUSINDBK,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+INDUSINDBK,True,"Exceptional net profit margin of 16.6%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+INDUSINDBK,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+INDUSINDBK,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+INDUSINDBK,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+INFY,True,Global Tier-1 technology partner with deep enterprise multi-year digital transformation contracts.,Fundamental,ANALYTICS_ENGINE,0.95
+INFY,True,Conservative capital structure with low Debt-to-Equity ratio of 0.09.,Fundamental,ANALYTICS_ENGINE,0.95
+INFY,True,"Exceptional net profit margin of 17.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+INFY,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+INFY,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+INFY,False,"Subdued 3-year Return on Equity of 3.0%, trailing top industry benchmarks.",Fundamental,ANALYTICS_ENGINE,0.95
+INFY,False,Sluggish 3-year sales growth (3.0% CAGR) indicating near-term market saturation.,Fundamental,ANALYTICS_ENGINE,0.95
+IOC,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+IOC,True,Manageable debt obligations with Debt-to-Equity maintained at 0.72.,Fundamental,ANALYTICS_ENGINE,0.95
+IOC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+IOC,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+IOC,False,"Thin net profit margin of 1.4%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+IOC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+IRCTC,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+IRCTC,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+IRCTC,True,"Exceptional net profit margin of 26.9%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+IRCTC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+IRCTC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+IRCTC,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+IRFC,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+IRFC,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+IRFC,True,"Exceptional net profit margin of 24.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+IRFC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+IRFC,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+IRFC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ITC,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+ITC,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+ITC,True,"Exceptional net profit margin of 27.7%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+ITC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ITC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ITC,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+JINDALSTEL,True,Large-scale vertically integrated manufacturing assets benefiting from national infrastructure capex.,Fundamental,ANALYTICS_ENGINE,0.95
+JINDALSTEL,True,Conservative capital structure with low Debt-to-Equity ratio of 0.37.,Fundamental,ANALYTICS_ENGINE,0.95
+JINDALSTEL,True,"Healthy net profit margin of 10.1%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+JINDALSTEL,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+JINDALSTEL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+JINDALSTEL,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+JIOFIN,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+JIOFIN,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+JIOFIN,True,"Exceptional net profit margin of 81.7%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+JIOFIN,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+JIOFIN,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+JIOFIN,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWENERGY,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWENERGY,True,"Exceptional net profit margin of 17.4%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+JSWENERGY,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWENERGY,False,"Elevated debt burden with Debt-to-Equity of 1.52, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+JSWENERGY,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWENERGY,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWSTEEL,True,Large-scale vertically integrated manufacturing assets benefiting from national infrastructure capex.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWSTEEL,True,Manageable debt obligations with Debt-to-Equity maintained at 1.13.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWSTEEL,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWSTEEL,False,"Thin net profit margin of 1.9%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+JSWSTEEL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+JSWSTEEL,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+KOTAKBANK,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+KOTAKBANK,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+KOTAKBANK,True,"Exceptional net profit margin of 35.2%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+KOTAKBANK,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+KOTAKBANK,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+KOTAKBANK,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+LICI,True,Expanding bancassurance partnerships and steady compounding of long-term embedded value (VNB).,Fundamental,ANALYTICS_ENGINE,0.95
+LICI,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+LICI,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+LICI,False,Mortality and morbidity claim volatility along with regulatory limits on surrender charges.,Fundamental,ANALYTICS_ENGINE,0.95
+LICI,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+LODHA,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+LODHA,True,Conservative capital structure with low Debt-to-Equity ratio of 0.44.,Fundamental,ANALYTICS_ENGINE,0.95
+LODHA,True,"Exceptional net profit margin of 18.5%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+LODHA,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+LODHA,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+LODHA,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+LT,True,"Massive multi-year order book across transportation, defense, green energy, and heavy engineering.",Fundamental,ANALYTICS_ENGINE,0.95
+LT,True,Conservative capital structure with low Debt-to-Equity ratio of 0.10.,Fundamental,ANALYTICS_ENGINE,0.95
+LT,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+LT,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+LT,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+LT,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+LTIM,True,Global Tier-1 technology partner with deep enterprise multi-year digital transformation contracts.,Fundamental,ANALYTICS_ENGINE,0.95
+LTIM,True,Conservative capital structure with low Debt-to-Equity ratio of 0.10.,Fundamental,ANALYTICS_ENGINE,0.95
+LTIM,True,"Healthy net profit margin of 12.3%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+LTIM,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+LTIM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+LTIM,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+M&M,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+M&M,True,"Healthy net profit margin of 8.9%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+M&M,False,"Elevated debt burden with Debt-to-Equity of 1.64, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+M&M,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+M&M,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+MARUTI,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+MARUTI,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+MARUTI,True,"Healthy net profit margin of 9.7%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+MARUTI,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+MARUTI,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+MARUTI,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+MOTHERSON,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+MOTHERSON,True,Manageable debt obligations with Debt-to-Equity maintained at 0.76.,Fundamental,ANALYTICS_ENGINE,0.95
+MOTHERSON,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+MOTHERSON,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+MOTHERSON,False,"Thin net profit margin of 3.8%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+MOTHERSON,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+NAUKRI,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+NAUKRI,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+NAUKRI,True,"Exceptional net profit margin of 20.7%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+NAUKRI,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+NAUKRI,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+NAUKRI,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+NESTLEIND,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+NESTLEIND,True,Conservative capital structure with low Debt-to-Equity ratio of 0.10.,Fundamental,ANALYTICS_ENGINE,0.95
+NESTLEIND,True,"Exceptional net profit margin of 16.8%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+NESTLEIND,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+NESTLEIND,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+NESTLEIND,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+NHPC,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+NHPC,True,Manageable debt obligations with Debt-to-Equity maintained at 0.84.,Fundamental,ANALYTICS_ENGINE,0.95
+NHPC,True,"Exceptional net profit margin of 35.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+NHPC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+NHPC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+NHPC,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+NTPC,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+NTPC,True,Manageable debt obligations with Debt-to-Equity maintained at 1.48.,Fundamental,ANALYTICS_ENGINE,0.95
+NTPC,True,"Healthy net profit margin of 12.1%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+NTPC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+NTPC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+NTPC,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+ONGC,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+ONGC,True,Conservative capital structure with low Debt-to-Equity ratio of 0.45.,Fundamental,ANALYTICS_ENGINE,0.95
+ONGC,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+ONGC,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+ONGC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+ONGC,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+PFC,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+PFC,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+PFC,True,"Exceptional net profit margin of 28.8%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+PFC,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+PFC,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+PFC,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+PIDILITIND,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+PIDILITIND,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+PIDILITIND,True,"Exceptional net profit margin of 15.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+PIDILITIND,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+PIDILITIND,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+PIDILITIND,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+PNB,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+PNB,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+PNB,True,"Healthy net profit margin of 12.5%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+PNB,False,Exposed to cyclical asset-quality deterioration and net interest margin (NIM) compression.,Fundamental,ANALYTICS_ENGINE,0.95
+PNB,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+PNB,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+POWERGRID,True,"Critical national energy and utility infrastructure with non-discretionary, long-term cash flow visibility.",Fundamental,ANALYTICS_ENGINE,0.95
+POWERGRID,True,Manageable debt obligations with Debt-to-Equity maintained at 1.33.,Fundamental,ANALYTICS_ENGINE,0.95
+POWERGRID,True,"Exceptional net profit margin of 34.3%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+POWERGRID,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+POWERGRID,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+POWERGRID,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+RECLTD,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+RECLTD,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+RECLTD,True,"Exceptional net profit margin of 28.9%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+RECLTD,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+RECLTD,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+RECLTD,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+RELIANCE,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+RELIANCE,True,Manageable debt obligations with Debt-to-Equity maintained at 0.58.,Fundamental,ANALYTICS_ENGINE,0.95
+RELIANCE,True,"Healthy net profit margin of 8.5%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+RELIANCE,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+RELIANCE,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+RELIANCE,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+SBILIFE,True,Expanding bancassurance partnerships and steady compounding of long-term embedded value (VNB).,Fundamental,ANALYTICS_ENGINE,0.95
+SBILIFE,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+SBILIFE,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+SBILIFE,False,Mortality and morbidity claim volatility along with regulatory limits on surrender charges.,Fundamental,ANALYTICS_ENGINE,0.95
+SBILIFE,False,"Thin net profit margin of 1.9%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+SBILIFE,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+SBIN,True,Strong low-cost CASA deposit franchise backed by extensive nationwide branch network.,Fundamental,ANALYTICS_ENGINE,0.95
+SBIN,True,"Exceptional net profit margin of 15.9%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+SBIN,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+SBIN,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+SBIN,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+SHREECEM,True,Strategic limestone reserves and regional supply dominance benefiting from booming infrastructure and housing.,Fundamental,ANALYTICS_ENGINE,0.95
+SHREECEM,True,Conservative capital structure with low Debt-to-Equity ratio of 0.08.,Fundamental,ANALYTICS_ENGINE,0.95
+SHREECEM,True,"Healthy net profit margin of 8.8%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+SHREECEM,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+SHREECEM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+SHREECEM,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+SHRIRAMFIN,True,Specialized retail underwriting with agile credit appraisal systems and high customer retention.,Fundamental,ANALYTICS_ENGINE,0.95
+SHRIRAMFIN,True,Strong capital adequacy ratio and well-diversified loan/asset book across retail & corporate sectors.,Fundamental,ANALYTICS_ENGINE,0.95
+SHRIRAMFIN,True,"Exceptional net profit margin of 23.7%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+SHRIRAMFIN,False,Higher borrowing cost sensitivity and asset-liability maturity mismatches in volatile rate cycles.,Fundamental,ANALYTICS_ENGINE,0.95
+SHRIRAMFIN,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+SHRIRAMFIN,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95
+SIEMENS,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+SIEMENS,True,Company is virtually debt-free with zero significant financial gearing.,Fundamental,ANALYTICS_ENGINE,0.95
+SIEMENS,True,"Healthy net profit margin of 12.2%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+SIEMENS,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+SIEMENS,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+SIEMENS,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+SUNPHARMA,True,Diversified multi-geography regulatory-approved generic formulations pipeline and robust R&D investments.,Fundamental,ANALYTICS_ENGINE,0.95
+SUNPHARMA,True,Conservative capital structure with low Debt-to-Equity ratio of 0.05.,Fundamental,ANALYTICS_ENGINE,0.95
+SUNPHARMA,True,"Exceptional net profit margin of 22.1%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+SUNPHARMA,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+SUNPHARMA,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+SUNPHARMA,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+TATACONSUM,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+TATACONSUM,True,Conservative capital structure with low Debt-to-Equity ratio of 0.22.,Fundamental,ANALYTICS_ENGINE,0.95
+TATACONSUM,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TATACONSUM,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+TATACONSUM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TATACONSUM,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAMOTORS,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAMOTORS,True,Manageable debt obligations with Debt-to-Equity maintained at 1.26.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAMOTORS,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAMOTORS,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAMOTORS,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAMOTORS,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAPOWER,True,Established market positioning with robust operational brand heritage in its industry.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAPOWER,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAPOWER,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+TATAPOWER,False,"Elevated debt burden with Debt-to-Equity of 1.66, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+TATAPOWER,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TATASTEEL,True,Large-scale vertically integrated manufacturing assets benefiting from national infrastructure capex.,Fundamental,ANALYTICS_ENGINE,0.95
+TATASTEEL,True,Manageable debt obligations with Debt-to-Equity maintained at 0.95.,Fundamental,ANALYTICS_ENGINE,0.95
+TATASTEEL,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TATASTEEL,False,"Thin net profit margin of 1.1%, leaving limited buffer against unexpected operational shocks.",Fundamental,ANALYTICS_ENGINE,0.95
+TATASTEEL,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TCS,True,Global Tier-1 technology partner with deep enterprise multi-year digital transformation contracts.,Fundamental,ANALYTICS_ENGINE,0.95
+TCS,True,Conservative capital structure with low Debt-to-Equity ratio of 0.09.,Fundamental,ANALYTICS_ENGINE,0.95
+TCS,True,"Exceptional net profit margin of 19.4%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+TCS,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TCS,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TCS,False,"Subdued 3-year Return on Equity of 3.0%, trailing top industry benchmarks.",Fundamental,ANALYTICS_ENGINE,0.95
+TCS,False,Sluggish 3-year sales growth (3.0% CAGR) indicating near-term market saturation.,Fundamental,ANALYTICS_ENGINE,0.95
+TECHM,True,Global Tier-1 technology partner with deep enterprise multi-year digital transformation contracts.,Fundamental,ANALYTICS_ENGINE,0.95
+TECHM,True,Conservative capital structure with low Debt-to-Equity ratio of 0.08.,Fundamental,ANALYTICS_ENGINE,0.95
+TECHM,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TECHM,True,Robust cash conversion efficiency with operating cash flows closely matching net profit.,Fundamental,ANALYTICS_ENGINE,0.95
+TECHM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TECHM,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+TITAN,True,Dominant consumer brand recall with deep pan-India distribution channels reaching millions of households.,Fundamental,ANALYTICS_ENGINE,0.95
+TITAN,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TITAN,False,"Elevated debt burden with Debt-to-Equity of 1.65, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+TITAN,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TORNTPHARM,True,Diversified multi-geography regulatory-approved generic formulations pipeline and robust R&D investments.,Fundamental,ANALYTICS_ENGINE,0.95
+TORNTPHARM,True,Manageable debt obligations with Debt-to-Equity maintained at 0.59.,Fundamental,ANALYTICS_ENGINE,0.95
+TORNTPHARM,True,"Exceptional net profit margin of 16.5%, exhibiting pricing power over input costs.",Fundamental,ANALYTICS_ENGINE,0.95
+TORNTPHARM,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TORNTPHARM,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TORNTPHARM,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+TRENT,True,High-density retail store network with superior inventory turnover and exceptional supply-chain scale.,Fundamental,ANALYTICS_ENGINE,0.95
+TRENT,True,Conservative capital structure with low Debt-to-Equity ratio of 0.43.,Fundamental,ANALYTICS_ENGINE,0.95
+TRENT,True,"Healthy net profit margin of 12.0%, sustaining consistent bottom-line returns.",Fundamental,ANALYTICS_ENGINE,0.95
+TRENT,True,Positive free cash flow generation strengthening internal liquidity and expansion reserves.,Fundamental,ANALYTICS_ENGINE,0.95
+TRENT,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TRENT,False,Valuation metrics reflect premium multiples given the company's established market leadership.,Fundamental,ANALYTICS_ENGINE,0.95
+TVSMOTOR,True,Strong market share in core passenger/commercial segments with aggressive EV transition roadmap.,Fundamental,ANALYTICS_ENGINE,0.95
+TVSMOTOR,False,"Elevated debt burden with Debt-to-Equity of 3.83, increasing interest expense obligations.",Fundamental,ANALYTICS_ENGINE,0.95
+TVSMOTOR,False,Zero or negligible dividend payout over the recent financial reporting periods.,Fundamental,ANALYTICS_ENGINE,0.95
+TVSMOTOR,False,Negative free cash flow due to aggressive ongoing capital expenditure or working capital lockup.,Fundamental,ANALYTICS_ENGINE,0.95

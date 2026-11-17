@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+
+# Environment Variables
+.env
+!.env.example
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary raw dumps
+data/raw/
+*.sqlite3
+
+# Keep source datasets and clean warehouse CSVs
+!data/source_files/
+!data/source_files/*.xlsx
+!data/clean/
+!data/clean/*.csv
+
+# Static / Media generated files
+webapp/static/
+webapp/media/

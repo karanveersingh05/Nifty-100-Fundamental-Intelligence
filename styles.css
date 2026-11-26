@@ -32,6 +32,8 @@
 html {
   scroll-behavior: smooth;
   color-scheme: dark;
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 body {
@@ -39,46 +41,26 @@ body {
   color: var(--text-main);
   font-family: var(--font-sans);
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: clip;
+  max-width: 100%;
   position: relative;
   min-height: 100vh;
+  min-height: 100svh;
 }
 
-/* Ambient Backdrops */
-.ambient {
-  position: fixed;
-  border-radius: 50%;
-  pointer-events: none;
-  filter: blur(120px);
-  z-index: 0;
-  opacity: 0.15;
+@supports not (overflow: clip) {
+  html, body {
+    overflow-x: hidden;
+  }
 }
-.ambient-one {
-  width: 500px;
-  height: 500px;
-  background: var(--accent-cyan);
-  top: -100px;
-  left: -100px;
+
+main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, .bands-table-shell {
+  min-width: 0;
+  max-width: 100%;
 }
-.ambient-two {
-  width: 600px;
-  height: 600px;
-  background: var(--accent-purple);
-  top: 40%;
-  right: -150px;
-}
-.grid-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  background-size: 60px 60px;
-  pointer-events: none;
-  z-index: 0;
+
+.code-preview, .bands-table-shell {
+  overflow-x: auto;
 }
 
 .shell {
@@ -917,5 +899,26 @@ body {
   }
   .proof-strip {
     grid-template-columns: 1fr;
+  }
+  .explorer-controls > div {
+    width: 100%;
+    min-width: 0;
+  }
+  #stock-quick-search {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .pillars-showcase,
+  .metrics-grid-row {
+    grid-template-columns: 1fr;
+  }
+  .shell {
+    padding: 0 16px;
+  }
+  .explorer-box {
+    padding: 18px 14px;
   }
 }

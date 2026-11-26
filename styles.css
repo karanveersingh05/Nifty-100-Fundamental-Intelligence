@@ -71,7 +71,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   z-index: 1;
 }
 
-/* Header */
+
 .site-header {
   position: sticky;
   top: 0;
@@ -174,7 +174,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   transition: 0.2s;
 }
 
-/* Hero Section */
+
 .hero {
   padding: 80px 0 60px;
 }
@@ -284,7 +284,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   color: var(--accent-cyan);
 }
 
-/* Hero Visual Card */
+
 .hero-visual {
   background: var(--bg-card);
   border: 1px solid var(--border-accent);
@@ -366,7 +366,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   color: var(--text-light);
 }
 
-/* Proof Strip */
+
 .proof-strip {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -394,7 +394,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   text-transform: uppercase;
 }
 
-/* Section Common */
+
 .section {
   padding: 70px 0;
   border-top: 1px solid var(--border-subtle);
@@ -428,7 +428,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   margin-bottom: 40px;
 }
 
-/* Grid Cards */
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -476,7 +476,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   text-transform: uppercase;
 }
 
-/* Scoring Pillars Showcase */
+
 .pillars-showcase {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -522,7 +522,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   border-radius: 6px;
 }
 
-/* Classification Table */
+
 .bands-table-shell {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
@@ -561,7 +561,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
 .label-weak { background: rgba(255, 94, 98, 0.2); color: var(--accent-red); border: 1px solid rgba(255, 94, 98, 0.4); }
 .label-poor { background: rgba(203, 45, 62, 0.2); color: #ef4444; border: 1px solid rgba(203, 45, 62, 0.4); }
 
-/* Interactive Stock Explorer */
+
 .explorer-box {
   background: var(--bg-card);
   border: 1px solid var(--border-accent);
@@ -642,7 +642,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   color: var(--accent-cyan);
 }
 
-/* Tabs */
+
 .explorer-tabs {
   display: flex;
   gap: 12px;
@@ -676,7 +676,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   display: block;
 }
 
-/* Metrics Row */
+
 .metrics-grid-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -702,7 +702,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   color: #fff;
 }
 
-/* Pros and Cons Explorer Grid */
+
 .pro-con-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -736,7 +736,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
 .pro-li span.bullet { color: var(--accent-green); }
 .con-li span.bullet { color: var(--accent-red); }
 
-/* Code preview */
+
 .code-preview {
   background: #05080e;
   border: 1px solid var(--border-subtle);
@@ -749,7 +749,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   line-height: 1.5;
 }
 
-/* Architecture pipeline steps */
+
 .pipeline-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -789,7 +789,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   display: inline-block;
 }
 
-/* Footer */
+
 .site-footer {
   border-top: 1px solid var(--border-subtle);
   padding: 60px 0 40px;
@@ -849,7 +849,7 @@ main, section, .shell, .hero-grid > *, .explorer-box, .tab-pane, .code-preview, 
   color: var(--text-subtle);
 }
 
-/* Responsive */
+
 @media (max-width: 992px) {
   .hero-grid {
     grid-template-columns: 1fr;

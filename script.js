@@ -1,5 +1,5 @@
 (() => {
-  // Mobile menu toggle
+  
   const menuBtn = document.querySelector(".menu-toggle");
   const mainNav = document.querySelector("#main-nav");
 
@@ -18,7 +18,7 @@
     });
   }
 
-  // Pre-compiled ground-truth financial data from the Star Schema SQLite warehouse
+  
   const stocksData = {
     "TCS": {
       symbol: "TCS",
@@ -334,11 +334,11 @@
     }
   };
 
-  // State
+  
   let currentStock = "TCS";
   let currentTab = "scorecard";
 
-  // Elements
+  
   const buttons = document.querySelectorAll(".stock-btn");
   const stockName = document.querySelector("#stock-name");
   const stockSymbol = document.querySelector("#stock-symbol");
@@ -367,35 +367,35 @@
 
     currentStock = symbol;
 
-    // Update active button
+    
     buttons.forEach((btn) => {
       btn.classList.toggle("is-active", btn.dataset.symbol === symbol);
     });
 
-    // Update Topline
+    
     stockName.textContent = data.name;
     stockSymbol.textContent = `(${data.symbol})`;
     stockSector.textContent = data.sector;
     stockScore.textContent = data.overall_score.toFixed(1);
 
-    // Update Health Label Badge
+    
     stockBadge.textContent = data.health_label;
     stockBadge.className = `label-badge label-${data.health_label.toLowerCase()}`;
 
-    // Update Scorecard Pillars
+    
     scoreProf.textContent = data.profitability_score.toFixed(1);
     scoreGrow.textContent = data.growth_score.toFixed(1);
     scoreLev.textContent = data.leverage_score.toFixed(1);
     scoreCash.textContent = data.cashflow_score.toFixed(1);
     scoreTrend.textContent = data.trend_score.toFixed(1);
 
-    // Update Metrics
+    
     metricSales.textContent = `₹${data.sales_cr.toLocaleString()} Cr`;
     metricProfit.textContent = `₹${data.net_profit_cr.toLocaleString()} Cr`;
     metricNpm.textContent = `${data.npm_pct}%`;
     metricDte.textContent = data.debt_to_equity.toFixed(2);
 
-    // Update Pros List
+    
     prosList.innerHTML = "";
     data.pros.forEach((proText) => {
       const li = document.createElement("li");
@@ -404,7 +404,7 @@
       prosList.appendChild(li);
     });
 
-    // Update Cons List
+    
     consList.innerHTML = "";
     data.cons.forEach((conText) => {
       const li = document.createElement("li");
@@ -413,7 +413,7 @@
       consList.appendChild(li);
     });
 
-    // Update JSON Preview
+    
     const apiPayload = {
       status: "success",
       ticker: data.symbol,
@@ -443,14 +443,14 @@
     jsonPreview.textContent = JSON.stringify(apiPayload, null, 2);
   }
 
-  // Stock selector click handlers
+  
   buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
       renderStock(btn.dataset.symbol);
     });
   });
 
-  // Tab switching
+  
   const tabButtons = document.querySelectorAll(".tab-btn");
   const tabPanes = document.querySelectorAll(".tab-pane");
 
@@ -464,7 +464,7 @@
     });
   });
 
-  // Quick filter
+  
   const quickSearch = document.querySelector("#stock-quick-search");
   if (quickSearch) {
     quickSearch.addEventListener("input", (e) => {
@@ -476,6 +476,6 @@
     });
   }
 
-  // Initialize with TCS
+  
   renderStock("TCS");
 })();

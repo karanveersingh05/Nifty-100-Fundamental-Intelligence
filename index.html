@@ -3,275 +3,189 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#080c14">
+  <meta name="theme-color" content="#f6f4ef">
   <meta name="author" content="Karan Veer Singh Sikarwar">
-  <meta name="description" content="A data engineering, fundamental analysis, and 5-pillar health-scoring platform for Nifty 100 listed companies. Built during the Data Analyst Internship at Bluestock Fintech.">
+  <meta name="description" content="Data engineering pipeline, Star Schema warehouse, and 5-pillar fundamental health-scoring model for 92 Nifty 100 companies. Built during the Bluestock Fintech internship.">
   <meta property="og:title" content="Nifty 100 Fundamental Intelligence | Karan Veer Singh Sikarwar">
-  <meta property="og:description" content="From raw financial statements to a Star Schema warehouse and 5-pillar health scoring for Nifty 100 companies.">
+  <meta property="og:description" content="Star Schema financial warehouse and 5-pillar health scoring across 92 Nifty 100 companies.">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://karanveersingh05.github.io/Nifty-100-Fundamental-Intelligence/">
   <title>Nifty 100 Fundamental Intelligence | Karan Veer Singh Sikarwar</title>
-  
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="shell header-inner">
-      <a class="brand" href="#top" aria-label="B100 Intelligence Home">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 40 40" fill="none">
-            <path d="M7 29L15 19L22 25L33 9" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M25 9H33V17" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </span>
-        <span class="brand-copy">
-          <strong>B100 / INTELLIGENCE</strong>
-          <small>BLUESTOCK FINTECH CAPSTONE</small>
-        </span>
+      <a class="brand" href="#top">
+        <strong>Nifty 100 Fundamental Intelligence</strong>
+        <small>Bluestock Fintech Internship</small>
       </a>
 
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
         <span></span><span></span>
       </button>
 
       <nav id="main-nav" class="main-nav" aria-label="Main navigation">
         <a href="#overview">Overview</a>
         <a href="#scoring">Scoring Model</a>
-        <a href="#demo">Live Explorer</a>
-        <a href="#warehouse">Data Warehouse</a>
-        <a href="#pipeline">Pipeline</a>
-        <a class="nav-cta" href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">
-          View source <span>&rarr;</span>
-        </a>
+        <a href="#demo">Explorer</a>
+        <a href="#warehouse">Warehouse</a>
+        <a href="#pipeline">Run Locally</a>
+        <a class="nav-cta" href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">GitHub -&gt;</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
-        <section class="hero">
-      <div class="shell hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow">
-            DATA ENGINEERING / BLUESTOCK FINTECH
-          </div>
-
-          <h1>Look beyond the headline return. Audited fundamentals.</h1>
-
-          <p class="hero-lede">
-            An end-to-end data pipeline and fundamental analysis platform built for India's Nifty 100.
-            Converts multi-format financial statement filings into a Star Schema Data Warehouse,
-            powering 5-pillar health scoring and curated pros and cons across 92 listed companies.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M9 19c-4.3 1.3-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6s-1.2-.4-3.9 1.4a13.5 13.5 0 0 0-7.1 0C5 1.1 3.8 1.5 3.8 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7a3.4 3.4 0 0 0-.9 2.7V22"/>
-              </svg>
-              Explore source code
-            </a>
-            <a class="button button-secondary" href="#demo">
-              Test Live Explorer &darr;
-            </a>
-          </div>
-
-          <div class="hero-meta">
-            <span>BUILT BY <strong>KARAN VEER SINGH SIKARWAR</strong></span>
-            <span class="meta-divider"></span>
-            <span>BLUESTOCK FINTECH INTERNSHIP</span>
-            <span class="meta-divider"></span>
-            <span>PYTHON / SQL / DJANGO</span>
-          </div>
-        </div>
-
-                <div class="hero-visual" aria-label="Interactive preview card">
-          <div class="visual-header">
-            <span class="visual-tag">NIFTY 100 / HEALTH SCORECARD</span>
-            <span class="visual-badge">LIVE REPRODUCIBLE MODEL</span>
-          </div>
-
-          <div class="visual-score-box">
-            <div>
-              <div class="score-number">57.9</div>
-              <span class="label-badge label-average" style="margin-top: 6px;">AVERAGE HEALTH</span>
-            </div>
-            <div class="score-details" style="text-align: right;">
-              <small>ACTIVE BENCHMARK</small>
-              <strong>TCS / IT SECTOR</strong>
-              <small style="color: var(--accent-cyan); margin-top: 4px;">Virtually Debt-Free (0.09 D/E)</small>
-            </div>
-          </div>
-
-          <div class="visual-pillars">
-            <div class="visual-pillar-item">
-              <span>PROFITABILITY (25%)</span>
-              <strong>44.3 / 100</strong>
-            </div>
-            <div class="visual-pillar-item">
-              <span>SOLVENCY (20%)</span>
-              <strong>100.0 / 100</strong>
-            </div>
-            <div class="visual-pillar-item">
-              <span>CASH FLOW (15%)</span>
-              <strong>100.0 / 100</strong>
-            </div>
-            <div class="visual-pillar-item">
-              <span>TREND MOMENTUM (15%)</span>
-              <strong>59.0 / 100</strong>
-            </div>
-          </div>
-        </div>
-      </div>
-
-            <div class="shell">
-        <div class="proof-strip">
-          <div class="proof-item">
-            <strong>92</strong>
-            <span>Nifty 100 Listed Companies</span>
-          </div>
-          <div class="proof-item">
-            <strong>3,400+</strong>
-            <span>Audited Warehouse Records</span>
-          </div>
-          <div class="proof-item">
-            <strong>540</strong>
-            <span>Curated Pros and Cons</span>
-          </div>
-          <div class="proof-item">
-            <strong>5 Pillars</strong>
-            <span>Rule-Based Scoring Engine</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-        <section id="overview" class="section">
+    <section class="hero">
       <div class="shell">
-        <span class="section-kicker">The Core Challenge</span>
-        <h2 class="section-title">Raw financial files. Audited metrics.</h2>
-        <p class="section-intro">
-          Corporate financial statements across Indian stock markets are published in fragmented, heterogeneous formats.
-          This capstone project implements an industrial data pipeline that ingests, normalizes, warehouses, and objectively scores every company.
+        <p class="hero-kicker">Python · SQL · Django · SQLite / PostgreSQL</p>
+        <h1>Fundamental health scoring for 92 Nifty 100 companies.</h1>
+        <p class="hero-lede">
+          Ingests multi-format corporate financial filings into a Star Schema data warehouse
+          (3,400+ records) and computes a transparent 0-100 composite score across profitability,
+          growth, solvency, cash flow, and recent earnings momentum.
         </p>
 
-        <div class="cards-grid">
-          <article class="info-card">
-            <div class="card-num">01 / INGESTION</div>
-            <h3>Heterogeneous Data Cleaning</h3>
-            <p>
-              Handles Excel and SQL database dumps with inconsistent column headers, missing fiscal year tags, and non-standard period labels.
-              Regular expressions parse and convert mixed text into standard temporal dimensions.
-            </p>
-            <span class="card-foot">PANDAS / REGEX / NORMALIZATION</span>
-          </article>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#demo">Open interactive explorer</a>
+          <a class="button button-secondary" href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">View source on GitHub -&gt;</a>
+        </div>
 
-          <article class="info-card">
-            <div class="card-num">02 / WAREHOUSE</div>
-            <h3>Relational Star Schema</h3>
-            <p>
-              Designed around dim_company, dim_year, and dim_sector with facts for balance sheets, cash flows, profit and loss, and multi-year CAGR metrics.
-              Supports both local zero-config SQLite and production PostgreSQL.
-            </p>
-            <span class="card-foot">SQLITE / POSTGRESQL / SQLALCHEMY</span>
-          </article>
+        <dl class="summary-strip">
+          <div>
+            <dt>Companies</dt>
+            <dd>92 Nifty 100</dd>
+          </div>
+          <div>
+            <dt>Warehouse rows</dt>
+            <dd>3,400+ records</dd>
+          </div>
+          <div>
+            <dt>Generated notes</dt>
+            <dd>540 pros &amp; cons</dd>
+          </div>
+          <div>
+            <dt>Scoring model</dt>
+            <dd>5 weighted pillars</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
 
-          <article class="info-card">
-            <div class="card-num">03 / SCORING</div>
-            <h3>Autonomous 5-Pillar Health Score</h3>
-            <p>
-              Replaces subjective manual analysis with an automated mathematical composite score evaluating profitability, compounding velocity, solvency cushions, and operating cash conversion.
-            </p>
-            <span class="card-foot">ANALYTICS / ZOMBIE PENALTY</span>
-          </article>
+    <section id="overview" class="section">
+      <div class="shell">
+        <h2 class="section-title">What the pipeline solves</h2>
+        <p class="section-intro">
+          Raw Indian equity filings arrive across inconsistent Excel sheets and SQL dumps with
+          varying fiscal-period labels. The ETL pipeline normalizes those records once so downstream
+          scoring and Django views query clean fact and dimension tables.
+        </p>
+
+        <div class="spec-list">
+          <div class="spec-row">
+            <div class="spec-label">Ingestion &amp; Cleaning</div>
+            <div class="spec-body">
+              Parses Excel and MySQL source dumps with regex-based fiscal period normalization,
+              standardizing column names and handling missing values before warehouse load.
+            </div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label">Star Schema Storage</div>
+            <div class="spec-body">
+              Separates <code>dim_company</code>, <code>dim_year</code>, and <code>dim_sector</code>
+              from balance sheet, profit &amp; loss, cash flow, and CAGR fact tables. Runs on SQLite
+              locally or PostgreSQL in production.
+            </div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label">Rule-Based Scoring</div>
+            <div class="spec-body">
+              Applies deterministic weights and explicit penalties (including a low-growth cap when
+              3-year sales CAGR falls below 5%) instead of opaque black-box scores.
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-        <section id="scoring" class="section">
+    <section id="scoring" class="section">
       <div class="shell">
-        <span class="section-kicker">Quantitative Scoring System</span>
-        <h2 class="section-title">A five-pillar mathematical model. No guesswork.</h2>
+        <h2 class="section-title">Five-pillar scoring model (0-100)</h2>
         <p class="section-intro">
-          Every company is assigned a score from 0 to 100. Weights reflect essential fundamental health principles:
-          operational profitability, compounding growth, leverage safety, earnings cash quality, and recent performance trajectory.
+          Each company is scored out of 100 using five weighted components derived from multi-year
+          audited statements.
         </p>
 
         <div class="pillars-showcase">
           <div class="pillar-card">
-            <div class="pillar-weight">25%</div>
+            <div class="pillar-weight">25% weight</div>
             <h4>Profitability</h4>
-            <p>Evaluates Return on Equity (ROE) and Net Profit Margin (NPM). Measures how effectively equity generates net income.</p>
-            <span class="pillar-badge">ROE * 2 + NPM * 2</span>
+            <p>Return on Equity (ROE) and Net Profit Margin (NPM) measuring capital efficiency.</p>
+            <code>ROE * 2 + NPM * 2</code>
           </div>
-
           <div class="pillar-card">
-            <div class="pillar-weight">25%</div>
-            <h4>Growth & Velocity</h4>
-            <p>3-Year Compounded Sales and Profit CAGR. Imposes a strict Zombie Penalty if top-line revenue growth is under 5%.</p>
-            <span class="pillar-badge">CAGR + Zombie Cap</span>
+            <div class="pillar-weight">25% weight</div>
+            <h4>Growth &amp; Velocity</h4>
+            <p>3-year Sales and Profit CAGR, with a Zombie Penalty cap when top-line growth is below 5%.</p>
+            <code>3Y CAGR + growth cap</code>
           </div>
-
           <div class="pillar-card">
-            <div class="pillar-weight">20%</div>
+            <div class="pillar-weight">20% weight</div>
             <h4>Solvency Safety</h4>
-            <p>Starts from 100 points. Applies sharp penalties for Debt-to-Equity &gt; 1.0 or 2.0, and Interest Coverage &lt; 3.0 or 1.0.</p>
-            <span class="pillar-badge">D/E &amp; IC Cushion</span>
+            <p>Starts at 100 and deducts points for Debt-to-Equity above 1.0 or 2.0 and Interest Coverage below 3.0 or 1.0.</p>
+            <code>D/E &amp; Interest Coverage</code>
           </div>
-
           <div class="pillar-card">
-            <div class="pillar-weight">15%</div>
+            <div class="pillar-weight">15% weight</div>
             <h4>Cash Flow Quality</h4>
-            <p>Validates accounting earnings. Awards bonus points for positive Free Cash Flow and Cash Conversion Ratios exceeding 0.8x.</p>
-            <span class="pillar-badge">FCF &gt; 0 / CCR &gt; 0.8</span>
+            <p>Checks whether accounting profit converts into positive Free Cash Flow and Cash Conversion Ratio above 0.8x.</p>
+            <code>FCF &gt; 0, CCR &gt; 0.8</code>
           </div>
-
           <div class="pillar-card">
-            <div class="pillar-weight">15%</div>
+            <div class="pillar-weight">15% weight</div>
             <h4>Trend Momentum</h4>
-            <p>Compares Trailing Twelve Months (TTM) net profit against the 3-Year historical average to spot inflection points.</p>
-            <span class="pillar-badge">TTM vs 3Y Mean</span>
+            <p>Compares Trailing Twelve Months (TTM) net profit against the 3-year historical average.</p>
+            <code>TTM vs 3Y mean</code>
           </div>
         </div>
 
-                <div class="bands-table-shell">
+        <div class="bands-table-shell">
           <table class="bands-table">
             <thead>
               <tr>
-                <th>Classification</th>
+                <th>Band</th>
                 <th>Score Range</th>
-                <th>Underlying Financial Profile</th>
+                <th>Interpretation</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td><span class="label-badge label-excellent">EXCELLENT</span></td>
-                <td><strong>80 to 100</strong></td>
-                <td>Pristine balance sheet, negligible debt, superior ROE, and robust free cash flow compounding.</td>
+                <td>80 - 100</td>
+                <td>Low leverage, high ROE, positive free cash flow, and steady compounding.</td>
               </tr>
               <tr>
                 <td><span class="label-badge label-good">GOOD</span></td>
-                <td><strong>60 to 79.9</strong></td>
-                <td>Healthy operating fundamentals with minor capital expenditure or top-line growth deceleration.</td>
+                <td>60 - 79.9</td>
+                <td>Sound core fundamentals with moderate capex or slower top-line growth.</td>
               </tr>
               <tr>
                 <td><span class="label-badge label-average">AVERAGE</span></td>
-                <td><strong>40 to 59.9</strong></td>
-                <td>Stable business operations with balanced capital allocation and sectoral median efficiency.</td>
+                <td>40 - 59.9</td>
+                <td>Mixed profile: solid solvency or margins offset by slower multi-year growth.</td>
               </tr>
               <tr>
                 <td><span class="label-badge label-weak">WEAK</span></td>
-                <td><strong>20 to 39.9</strong></td>
-                <td>Elevated debt gearing, narrowing margins, or persistent negative free cash flow absorption.</td>
+                <td>20 - 39.9</td>
+                <td>Elevated debt, margin pressure, or negative free cash flow.</td>
               </tr>
               <tr>
                 <td><span class="label-badge label-poor">POOR</span></td>
-                <td><strong>0 to 19.9</strong></td>
-                <td>Severe balance sheet stress, persistent operating losses, or critical interest servicing danger.</td>
+                <td>0 - 19.9</td>
+                <td>Operating losses, heavy debt burden, or weak interest coverage.</td>
               </tr>
             </tbody>
           </table>
@@ -279,122 +193,106 @@
       </div>
     </section>
 
-        <section id="demo" class="section">
+    <section id="demo" class="section">
       <div class="shell">
-        <span class="section-kicker">Interactive Explorer</span>
-        <h2 class="section-title">Explore the warehouse in your browser.</h2>
+        <h2 class="section-title">Warehouse explorer</h2>
         <p class="section-intro">
-          Test the interactive stock explorer below. Select any ticker symbol to inspect real, audited metrics pulled directly
-          from the project's SQLite Data Warehouse, complete with five-pillar breakdowns and automated pros and cons.
+          Select a sample ticker below to inspect its warehouse metrics, 5-pillar score breakdown,
+          generated pros and cons, and REST payload structure.
         </p>
 
         <div class="explorer-box">
           <div class="explorer-controls">
-            <div>
-              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); display: block; margin-bottom: 6px;">SELECT STOCK TICKER:</span>
-              <div class="stock-selector-buttons">
-                <button type="button" class="stock-btn is-active" data-symbol="TCS">TCS</button>
-                <button type="button" class="stock-btn" data-symbol="RELIANCE">RELIANCE</button>
-                <button type="button" class="stock-btn" data-symbol="HDFCBANK">HDFCBANK</button>
-                <button type="button" class="stock-btn" data-symbol="TATAMOTORS">TATAMOTORS</button>
-                <button type="button" class="stock-btn" data-symbol="ITC">ITC</button>
-                <button type="button" class="stock-btn" data-symbol="MARUTI">MARUTI</button>
-                <button type="button" class="stock-btn" data-symbol="DMART">DMART</button>
-                <button type="button" class="stock-btn" data-symbol="ADANIGREEN">ADANIGREEN</button>
-                <button type="button" class="stock-btn" data-symbol="SUNPHARMA">SUNPHARMA</button>
-                <button type="button" class="stock-btn" data-symbol="COALINDIA">COALINDIA</button>
-              </div>
+            <div class="stock-selector-buttons" role="group" aria-label="Select sample stock">
+              <button type="button" class="stock-btn is-active" data-symbol="TCS">TCS</button>
+              <button type="button" class="stock-btn" data-symbol="RELIANCE">RELIANCE</button>
+              <button type="button" class="stock-btn" data-symbol="HDFCBANK">HDFCBANK</button>
+              <button type="button" class="stock-btn" data-symbol="TATAMOTORS">TATAMOTORS</button>
+              <button type="button" class="stock-btn" data-symbol="ITC">ITC</button>
+              <button type="button" class="stock-btn" data-symbol="MARUTI">MARUTI</button>
+              <button type="button" class="stock-btn" data-symbol="DMART">DMART</button>
+              <button type="button" class="stock-btn" data-symbol="ADANIGREEN">ADANIGREEN</button>
+              <button type="button" class="stock-btn" data-symbol="SUNPHARMA">SUNPHARMA</button>
+              <button type="button" class="stock-btn" data-symbol="COALINDIA">COALINDIA</button>
             </div>
-            <div>
-              <input type="text" id="stock-quick-search" placeholder="Filter by symbol..." style="background: rgba(0,0,0,0.4); border: 1px solid var(--border-subtle); color: #fff; padding: 8px 14px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.8rem;">
+            <div class="search-wrap">
+              <label class="sr-only" for="stock-quick-search">Filter ticker symbol</label>
+              <input type="text" id="stock-quick-search" placeholder="Filter ticker...">
             </div>
           </div>
 
-                    <div class="stock-headline">
+          <div class="stock-headline">
             <div class="stock-title">
               <h3 id="stock-name">Tata Consultancy Services Ltd</h3>
-              <div>
+              <div class="stock-sub">
                 <span id="stock-symbol">(TCS)</span>
-                <span style="color: var(--text-muted); margin: 0 8px;">&bull;</span>
-                <span id="stock-sector" style="color: var(--text-muted);">IT</span>
+                <span aria-hidden="true">&middot;</span>
+                <span id="stock-sector">IT</span>
               </div>
             </div>
             <div class="stock-score-chip">
               <div>
                 <div class="chip-val" id="stock-score">57.9</div>
-                <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted);">SCORE (0 - 100)</span>
+                <span class="chip-sub">Score / 100</span>
               </div>
-              <div>
-                <span id="stock-badge" class="label-badge label-average">AVERAGE</span>
+              <span id="stock-badge" class="label-badge label-average">AVERAGE</span>
+            </div>
+          </div>
+
+          <div class="explorer-tabs">
+            <button type="button" class="tab-btn is-active" data-tab="scorecard">Scorecard</button>
+            <button type="button" class="tab-btn" data-tab="proscons">Pros &amp; Cons</button>
+            <button type="button" class="tab-btn" data-tab="metrics">Financial Ratios</button>
+            <button type="button" class="tab-btn" data-tab="json">API JSON</button>
+          </div>
+
+          <div id="pane-scorecard" class="tab-pane is-active">
+            <div class="pillars-showcase pillars-compact">
+              <div class="pillar-card">
+                <div class="pillar-weight">Profitability (25%)</div>
+                <div class="pillar-score" id="score-prof">44.3</div>
+                <p>ROE and operating margin efficiency.</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-weight">Growth (25%)</div>
+                <div class="pillar-score" id="score-grow">12.0</div>
+                <p>3-year sales and profit CAGR.</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-weight">Solvency (20%)</div>
+                <div class="pillar-score" id="score-lev">100.0</div>
+                <p>Debt-to-Equity and Interest Coverage.</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-weight">Cash Flow (15%)</div>
+                <div class="pillar-score" id="score-cash">100.0</div>
+                <p>Free Cash Flow and Cash Conversion Ratio.</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-weight">Momentum (15%)</div>
+                <div class="pillar-score" id="score-trend">59.0</div>
+                <p>TTM net profit vs 3-year baseline.</p>
               </div>
             </div>
           </div>
 
-                    <div class="explorer-tabs">
-            <button type="button" class="tab-btn is-active" data-tab="scorecard">Scorecard Breakdown</button>
-            <button type="button" class="tab-btn" data-tab="proscons">Curated Pros &amp; Cons</button>
-            <button type="button" class="tab-btn" data-tab="metrics">Audited Financial Ratios</button>
-            <button type="button" class="tab-btn" data-tab="json">REST API Payload</button>
-          </div>
-
-                    <div id="pane-scorecard" class="tab-pane is-active">
-            <div class="pillars-showcase" style="margin-bottom: 0;">
-              <div class="pillar-card">
-                <span class="card-num">PILLAR 1</span>
-                <h4>Profitability (25%)</h4>
-                <div style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--accent-cyan);" id="score-prof">44.3</div>
-                <p style="margin-top: 6px;">Return on Equity and operating margin pricing power.</p>
-              </div>
-
-              <div class="pillar-card">
-                <span class="card-num">PILLAR 2</span>
-                <h4>Growth (25%)</h4>
-                <div style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--accent-cyan);" id="score-grow">12.0</div>
-                <p style="margin-top: 6px;">3-Year Sales and Profit compounding CAGR.</p>
-              </div>
-
-              <div class="pillar-card">
-                <span class="card-num">PILLAR 3</span>
-                <h4>Solvency (20%)</h4>
-                <div style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--accent-cyan);" id="score-lev">100.0</div>
-                <p style="margin-top: 6px;">Debt-to-Equity and Interest Coverage safety cushion.</p>
-              </div>
-
-              <div class="pillar-card">
-                <span class="card-num">PILLAR 4</span>
-                <h4>Cash Flow (15%)</h4>
-                <div style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--accent-cyan);" id="score-cash">100.0</div>
-                <p style="margin-top: 6px;">Free Cash Flow and Cash Conversion Ratio.</p>
-              </div>
-
-              <div class="pillar-card">
-                <span class="card-num">PILLAR 5</span>
-                <h4>Momentum (15%)</h4>
-                <div style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--accent-cyan);" id="score-trend">59.0</div>
-                <p style="margin-top: 6px;">TTM Net Profit vs 3-Year historical baseline.</p>
-              </div>
-            </div>
-          </div>
-
-                    <div id="pane-proscons" class="tab-pane">
+          <div id="pane-proscons" class="tab-pane">
             <div class="pro-con-grid">
               <div class="pro-column">
-                <h4>Fundamental Strengths (Pros)</h4>
-                <ul id="pros-list" class="pro-con-list">
-                                  </ul>
+                <h4>Strengths (Pros)</h4>
+                <ul id="pros-list" class="pro-con-list"></ul>
               </div>
               <div class="con-column">
-                <h4>Fundamental Risks (Cons)</h4>
-                <ul id="cons-list" class="pro-con-list">
-                                  </ul>
+                <h4>Risks (Cons)</h4>
+                <ul id="cons-list" class="pro-con-list"></ul>
               </div>
             </div>
           </div>
 
-                    <div id="pane-metrics" class="tab-pane">
+          <div id="pane-metrics" class="tab-pane">
             <div class="metrics-grid-row">
               <div class="metric-box">
-                <small>Gross Sales Revenue</small>
+                <small>Gross Sales</small>
                 <strong id="metric-sales">₹240,893 Cr</strong>
               </div>
               <div class="metric-box">
@@ -406,147 +304,111 @@
                 <strong id="metric-npm">19.1%</strong>
               </div>
               <div class="metric-box">
-                <small>Debt to Equity Ratio</small>
+                <small>Debt to Equity</small>
                 <strong id="metric-dte">0.09</strong>
               </div>
             </div>
-            <p style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0;">
-              Audited data directly reconciles with fact_balance_sheet, fact_profit_loss, and fact_cash_flow.
+            <p class="metrics-footnote">
+              Values reconcile with <code>fact_balance_sheet</code>, <code>fact_profit_loss</code>, and <code>fact_cash_flow</code>.
             </p>
           </div>
 
-                    <div id="pane-json" class="tab-pane">
+          <div id="pane-json" class="tab-pane">
             <pre class="code-preview"><code id="json-preview">{}</code></pre>
           </div>
         </div>
       </div>
     </section>
 
-        <section id="warehouse" class="section">
+    <section id="warehouse" class="section">
       <div class="shell">
-        <span class="section-kicker">Dimensional Modeling</span>
-        <h2 class="section-title">Star Schema Data Warehouse. Fast and auditable.</h2>
+        <h2 class="section-title">Star Schema tables</h2>
         <p class="section-intro">
-          Traditional flat table queries struggle with multi-year aggregations across dozens of financial metrics.
-          The Star Schema model isolates company, calendar year, and sector entities into distinct dimensions while centralizing balance sheets, P&amp;L, and cash flows into clean facts.
+          Dimensional modeling separates entity metadata from multi-year financial statements and
+          computed analytics tables.
         </p>
 
-        <div class="cards-grid">
-          <article class="info-card">
-            <div class="card-num">DIMENSIONS</div>
-            <h3>Entity &amp; Temporal Reference</h3>
-            <p>
-              <strong>dim_company:</strong> Ticker, name, sector, NSE/BSE profiles, face value.<br>
-              <strong>dim_year:</strong> Fiscal year, quarter, sort order, TTM flag.<br>
-              <strong>dim_sector:</strong> Normalized industry groupings.
-            </p>
-            <span class="card-foot">SURROGATE KEYS / CLEAN JOINS</span>
-          </article>
-
-          <article class="info-card">
-            <div class="card-num">FACTS / CORE</div>
-            <h3>Financial Statement Warehouse</h3>
-            <p>
-              <strong>fact_balance_sheet:</strong> Equity, reserves, borrowings, total assets.<br>
-              <strong>fact_profit_loss:</strong> Sales, OPM, PBT, net profit, EPS, dividend payout.<br>
-              <strong>fact_cash_flow:</strong> Operating, investing, and financing cash flows.
-            </p>
-            <span class="card-foot">AUDITED MULTI-YEAR ROWS</span>
-          </article>
-
-          <article class="info-card">
-            <div class="card-num">FACTS / ANALYTICS</div>
-            <h3>Computed Derived Intelligence</h3>
-            <p>
-              <strong>fact_analysis:</strong> 3Y, 5Y, 10Y Compounded Sales, Profit &amp; ROE.<br>
-              <strong>fact_ml_scores:</strong> Autonomous 5-pillar composite health scores.<br>
-              <strong>fact_pros_cons:</strong> 540 curated fundamental strengths &amp; risks.
-            </p>
-            <span class="card-foot">REAL-TIME QUERY SPEED</span>
-          </article>
+        <div class="spec-list">
+          <div class="spec-row">
+            <div class="spec-label">Dimensions</div>
+            <div class="spec-body">
+              <code>dim_company</code> (ticker, NSE/BSE identifiers, sector key),
+              <code>dim_year</code> (fiscal year, quarter, TTM flag), and
+              <code>dim_sector</code> (normalized industry groups).
+            </div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label">Core Facts</div>
+            <div class="spec-body">
+              <code>fact_balance_sheet</code> (equity, reserves, borrowings, assets),
+              <code>fact_profit_loss</code> (sales, OPM, PBT, net profit, EPS, dividend payout), and
+              <code>fact_cash_flow</code> (operating, investing, and financing flows).
+            </div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label">Derived Facts</div>
+            <div class="spec-body">
+              <code>fact_analysis</code> (3Y, 5Y, 10Y CAGR &amp; ROE),
+              <code>fact_ml_scores</code> (5-pillar health scores), and
+              <code>fact_pros_cons</code> (540 structured strengths and risks).
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-        <section id="pipeline" class="section">
+    <section id="pipeline" class="section">
       <div class="shell">
-        <span class="section-kicker">Execution Architecture</span>
-        <h2 class="section-title">Zero Docker friction. Run locally in one click.</h2>
+        <h2 class="section-title">Pipeline execution &amp; local mode</h2>
         <p class="section-intro">
-          While traditional architectures require 5 running Docker containers (PostgreSQL, Redis, Celery, Beat, Django),
-          this project features a complete Standalone Local Mode powered by SQLite and in-memory caching.
+          Runs either as a 5-container Docker stack (PostgreSQL, Redis, Celery, Beat, Django) or in
+          Standalone Local Mode on SQLite without Docker Desktop.
         </p>
 
-        <div class="pipeline-steps">
-          <div class="step-card">
-            <div class="step-num">STAGE 01</div>
-            <h4>Ingest Source Data</h4>
-            <p>Parses raw Excel sheets and SQL dumps, verifying schema columns and types.</p>
-            <span class="step-code">01_extract_from_mysql.py</span>
-          </div>
+        <ol class="pipeline-list">
+          <li>
+            <strong>Ingest source dumps</strong>
+            <code>etl/01_extract_from_mysql.py</code>
+            <span>Reads Excel sheets and MySQL tables, checking schema columns and data types.</span>
+          </li>
+          <li>
+            <strong>Clean &amp; compute ratios</strong>
+            <code>etl/02_clean_and_transform.py</code>
+            <span>Derives Debt-to-Equity, margins, free cash flow, and normalized fiscal dates.</span>
+          </li>
+          <li>
+            <strong>Load Star Schema</strong>
+            <code>etl/03_load_to_warehouse.py</code>
+            <span>Upserts dimensions and facts into SQLite or PostgreSQL.</span>
+          </li>
+          <li>
+            <strong>Score &amp; serve</strong>
+            <code>analytics/scoring_engine.py</code>
+            <span>Computes 5-pillar scores and serves the Django web interface.</span>
+          </li>
+        </ol>
 
-          <div class="step-card">
-            <div class="step-num">STAGE 02</div>
-            <h4>Clean &amp; Derive</h4>
-            <p>Computes debt-to-equity, profit margins, free cash flow, and temporal mappings.</p>
-            <span class="step-code">02_clean_and_transform.py</span>
-          </div>
-
-          <div class="step-card">
-            <div class="step-num">STAGE 03</div>
-            <h4>Load Warehouse</h4>
-            <p>Performs dialect-aware upserts into fact and dimension tables.</p>
-            <span class="step-code">03_load_to_warehouse.py</span>
-          </div>
-
-          <div class="step-card">
-            <div class="step-num">STAGE 04</div>
-            <h4>Score &amp; Serve</h4>
-            <p>Executes scoring algorithms and launches the Django interactive web application.</p>
-            <span class="step-code">scoring_engine.py</span>
-          </div>
-        </div>
-
-        <div style="margin-top: 36px; background: var(--bg-card); border: 1px solid var(--border-accent); border-radius: 14px; padding: 24px 30px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px;">
+        <div class="local-banner">
           <div>
-            <h4 style="color: #fff; margin-bottom: 4px; font-size: 1.1rem;">Quick Start: Standalone Local Mode</h4>
-            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0;">
-              Double-click <code>run_without_docker.bat</code> or <code>run_local.bat</code> to run natively on Windows. No Docker Desktop needed.
-            </p>
+            <strong>Standalone Windows launch</strong>
+            <p>Run <code>run_without_docker.bat</code> or <code>run_local.bat</code> to start the warehouse and Django app locally.</p>
           </div>
-          <a class="button button-primary" href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">
-            Get the Project on GitHub &rarr;
-          </a>
+          <a class="button button-primary" href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">Open repository -&gt;</a>
         </div>
       </div>
     </section>
   </main>
 
-    <footer class="site-footer">
-    <div class="shell">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <strong>NIFTY 100 FUNDAMENTAL INTELLIGENCE</strong>
-          <p>
-            Built during the Data Analyst Internship at <strong>Bluestock Fintech</strong>.<br>
-            Designed, modeled, and developed by <strong>Karan Veer Singh Sikarwar</strong>.
-          </p>
-        </div>
-        <div class="footer-links">
-          <h5>Navigation</h5>
-          <ul>
-            <li><a href="#overview">Project Overview</a></li>
-            <li><a href="#scoring">Scoring Methodology</a></li>
-            <li><a href="#demo">Live Explorer</a></li>
-            <li><a href="#warehouse">Star Schema Warehouse</a></li>
-            <li><a href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
-          </ul>
-        </div>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>
+        <strong>Nifty 100 Fundamental Intelligence</strong>
+        <span>Karan Veer Singh Sikarwar · Bluestock Fintech Internship · MIT License</span>
       </div>
-
-      <div class="footer-bottom">
-        <div>MIT License &bull; Copyright &copy; 2026 Karan Veer Singh Sikarwar</div>
-        <div>Bluestock Fintech Internship Capstone &bull; Nifty 100 Market Intelligence</div>
+      <div class="footer-links">
+        <a href="https://karanveersingh05.github.io/links.to.me/">links.to.me</a>
+        <a href="https://karanveersingh05.github.io/links.to.me/gitcode/">All builds</a>
+        <a href="https://github.com/karanveersingh05/Nifty-100-Fundamental-Intelligence" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   </footer>
